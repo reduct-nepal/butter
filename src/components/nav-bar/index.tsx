@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 import styles from "./navbar.module.css";
 import CTAButton from "components/cta-button";
@@ -19,7 +20,13 @@ export default function Navbar(): React.ReactElement {
         <span className={styles.separator}>.</span>
         <span>Examples</span>
       </div>
-      <CTAButton>Talk to Us!</CTAButton>
+      <Link
+        href="https://calendly.com/reduct-nepal/good-better-butter-your-content"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <CTAButton>Talk to Us!</CTAButton>
+      </Link>
     </div>
   );
 }
