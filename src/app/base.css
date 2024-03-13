@@ -37,6 +37,7 @@
   /* text color */
   --text-dark: var(--black);
   --text-light: var(--white);
+  --text-gray: #ccc;
 }
 
 * {

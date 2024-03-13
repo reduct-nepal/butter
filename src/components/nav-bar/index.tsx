@@ -1,8 +1,9 @@
 import React from "react";
-import styles from "./navbar.module.css";
-import Logo from "assets/images/global/logo-white.svg";
 import Image from "next/image";
+
+import styles from "./navbar.module.css";
 import CTAButton from "components/cta-button";
+import Logo from "assets/images/global/logo-white.svg";
 
 export default function Navbar(): React.ReactElement {
   return (
