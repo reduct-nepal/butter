@@ -13,7 +13,7 @@ export const Footer = () => {
         <h1>Get a free SEO audit of your website</h1>
         <p>You focus on building your products, and we’ll lead the growth. </p>
         <Link
-          href="https://calendly.com/yashant"
+          href="https://calendly.com/reduct-nepal/good-better-butter-your-content"
           target="_blank"
           className={styles.footerCta}
         >
