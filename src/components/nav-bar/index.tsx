@@ -9,10 +9,12 @@ import Logo from "assets/images/global/logo-white.svg";
 export default function Navbar(): React.ReactElement {
   return (
     <div className={styles.container}>
-      <Image
-        src={Logo}
-        alt="Site Logo"
-      />
+      <Link href="/">
+        <Image
+          src={Logo}
+          alt="Site Logo"
+        />
+      </Link>
       <div className={styles.links_container}>
         <span>Pricing</span>
         <span className={styles.separator}>.</span>
