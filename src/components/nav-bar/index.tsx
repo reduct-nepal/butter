@@ -15,13 +15,13 @@ export default function Navbar(): React.ReactElement {
           alt="Site Logo"
         />
       </Link>
-      <div className={styles.links_container}>
+      {/* <div className={styles.links_container}>
         <span>Pricing</span>
         <span className={styles.separator}>.</span>
         <span>Why Butter?</span>
         <span className={styles.separator}>.</span>
         <span>Examples</span>
-      </div>
+      </div> */}
       <Link
         href="https://calendly.com/reduct-nepal/good-better-butter-your-content"
         rel="noopener noreferrer"

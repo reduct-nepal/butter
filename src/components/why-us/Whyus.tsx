@@ -4,7 +4,10 @@ import { Benefit } from "./constants";
 import Image from "next/image";
 export default function WhyUs(): React.ReactElement {
   return (
-    <div className={"container"}>
+    <div
+      className={"container"}
+      id="whyUs"
+    >
       {Benefit.map((benefit, index) => {
         const isEven = index % 2 != 0;
         return (

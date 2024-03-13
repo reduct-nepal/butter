@@ -72,7 +72,10 @@ const Package = () => {
   };
 
   return (
-    <section className={styles.packagesContainer + " " + "container"}>
+    <section
+      className={styles.packagesContainer + " " + "container"}
+      id="pricing"
+    >
       <h2 className={styles.packagesboldText}>Pricing</h2>
       <div className={styles.packagesContainerColumn}>
         <div className={styles.packagesType}>
