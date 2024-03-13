@@ -3,17 +3,25 @@ import React from "react";
 import CTAButton from "components/cta-button";
 import styles from "./hero.module.css";
 import Link from "next/link";
+import ButterLogo from "../../assets/icons/butter.svg";
+import Image from "next/image";
 
 export default function Hero(): React.ReactElement {
   return (
     <div className={styles.container}>
       <div className={styles.main}>
-        <p>We’re a SaaS Marketing Agency specializing on</p>
         <h1 className={styles.heading}>
-          Pain Point SEO: Our Driver <br />
-          for Your Company’s Evolution.
+          Content growth can happen over a month. And, we can prove that!
         </h1>
-        <p>Butter: Your solution recipe for SEO success!</p>
+        <p>You focus on your product, we got your marketing!</p>
+        <div className={styles.butterLogo}>
+          <Image
+            width={32}
+            src={ButterLogo}
+            alt="Butter Logo"
+          />
+        </div>
+
         <div className={styles.button_container}>
           <CTAButton className={styles.cta_button}>
             <Link

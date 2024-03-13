@@ -4,17 +4,19 @@
 }
 
 .main {
+  position: relative;
   margin: var(--spacing-normal) auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: var(--spacing-large)
+  margin-bottom: var(--spacing-large);
 }
 
 .heading {
   margin-top: 12px;
   margin-bottom: 32px;
   text-align: center;
+  font-family: Geist Bold;
 }
 
 .button_container {
@@ -30,4 +32,10 @@
   padding: 16px 20px;
   background-color: var(--background-dark);
   color: var(--white);
+}
+
+.butterLogo {
+  position: absolute;
+  left: 66%;
+  top: 52%;
 }
