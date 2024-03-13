@@ -1,12 +1,11 @@
 .container {
-  padding: 0 var(--spacing-small);
   background-color: var(--background-dark);
   border-radius: 12px;
-  padding: var(--spacing-extra-small);
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 24px 120px;
+  padding: 13px 36px;
 }
 
 .links_container {
