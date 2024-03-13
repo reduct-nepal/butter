@@ -1,0 +1,33 @@
+.container {
+  padding: 24px 120px;
+  width: 100%;
+}
+
+.main {
+  margin: var(--spacing-normal) auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: var(--spacing-large)
+}
+
+.heading {
+  margin-top: 12px;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.button_container {
+  padding-top: 32px;
+}
+
+.cta_button {
+  padding: 16px 20px;
+  margin-right: 28px;
+}
+
+.pricing_button {
+  padding: 16px 20px;
+  background-color: var(--background-dark);
+  color: var(--white);
+}
