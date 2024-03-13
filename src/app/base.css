@@ -140,7 +140,7 @@ p {
 
 .container {
   padding: 0 var(--spacing-large);
-
+  margin: auto;
   @media screen and (max-width: 1080px) {
     padding: 0 var(--spacing-normal);
   }

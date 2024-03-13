@@ -1,0 +1,20 @@
+.benefit {
+  display: flex;
+  flex-direction: row;
+  gap: var(--spacing-normal);
+  align-items: center;
+  justify-content: center;
+}
+.benefitContent {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-small);
+  max-width: 445px;
+}
+
+.benefitReversed {
+  flex-direction: row-reverse;
+}
+.benefitDescription {
+  gap: var(--spacing-extra-tight);
+}
