@@ -5,6 +5,7 @@ import Image from "next/image";
 
 import LocationIcon from "../../assets/icons/location.svg";
 import MailIcon from "../../assets/icons/mail.svg";
+import Underline from "../../assets/images/underline.svg";
 
 export const Footer = () => {
   return (
@@ -19,6 +20,12 @@ export const Footer = () => {
         >
           Book a call
         </Link>
+        <div className={styles.underlinePosition}>
+          <Image
+            src={Underline}
+            alt="Underline"
+          />
+        </div>
       </div>
       <div className={styles.copyrightContainer}>
         <p>All rights reserved 2024 @Butter Content</p>
