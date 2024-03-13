@@ -25,7 +25,6 @@
 }
 
 .footerContainer {
-  position: relative;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -44,7 +43,7 @@
   align-items: center;
 }
 
-.copyrightRightCOntainer {
+.copyrightRightContainer {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -57,4 +56,9 @@
   position: absolute;
   transform: translate(-50%, -50%);
   left: 50%;
+  top: 105%;
+}
+
+.header {
+  position: relative;
 }
