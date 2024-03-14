@@ -5,7 +5,7 @@
   justify-content: center;
   gap: var(--spacing-tight);
   padding: var(--spacing-large);
-  margin-top: var(--spacing-small);
+  margin-top: var(--spacing-normal);
 
   @media screen and (max-width: 768px) {
     padding: var(--spacing-large) var(--spacing-small);
