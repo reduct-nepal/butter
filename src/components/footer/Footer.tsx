@@ -30,22 +30,26 @@ export const Footer = () => {
         </CTAButton>
       </div>
       <div className={styles.copyrightContainer}>
-        <p>All rights reserved 2024 @Butter Content</p>
+        <span className={styles.copyrightReserved}>
+          All rights reserved 2024 @Butter Content
+        </span>
 
         <div className={styles.copyrightRightContainer}>
           <div className={styles.copyrightRow}>
             <Image
+              width={18}
               src={LocationIcon}
               alt="location icon"
             />
-            <p>Sanepa, Lalitpur, Nepal</p>
+            <span>Sanepa, Lalitpur, Nepal</span>
           </div>
           <div className={styles.copyrightRow}>
             <Image
+              width={18}
               src={MailIcon}
               alt="Mail icon"
             />
-            <p>hello@buttercontent.com</p>
+            <span>hello@buttercontent.com</span>
           </div>
         </div>
       </div>
