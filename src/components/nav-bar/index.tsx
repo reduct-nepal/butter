@@ -28,7 +28,7 @@ export default function Navbar(): React.ReactElement {
           link="https://calendly.com/reduct-nepal/good-better-butter-your-content"
           className={styles.navCta}
         >
-          Talk to Us!
+          Talk to us!
         </CTAButton>
       </div>
     </section>

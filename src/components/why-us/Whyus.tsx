@@ -21,16 +21,19 @@ export default function WhyUs(): React.ReactElement {
           >
             <div className={styles.benefitContent}>
               <h3>{benefit.title}</h3>
-              <p className={styles.benefitDescription}>{benefit.list[0]}</p>
+              <div className={styles.benefitDescription}>
+              <p>{benefit.list[0]}</p>
               <p>{benefit.list[1]}</p>
-            </div>
-            <div>
+              </div>
+              </div>
+      
               <Image
                 className={styles.whyUsImage}
                 src={benefit.media}
                 alt="BenefitPhoto"
               />
-            </div>
+
+            
           </div>
         );
       })}

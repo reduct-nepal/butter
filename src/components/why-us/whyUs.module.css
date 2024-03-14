@@ -11,18 +11,23 @@
   flex-direction: row;
   gap: var(--spacing-normal);
   align-items: center;
+  align-content: center;
   justify-content: center;
 
   @media screen and (max-width: 1080px) {
     flex-direction: column;
+
   }
 }
 
 .benefitContent {
   display: flex;
   flex-direction: column;
-  gap: var(--spacing-small);
-  max-width: 445px;
+  gap: var(--spacing-tight);
+  width:40%;
+  @media screen and (max-width: 1080px) {
+    width:100%;
+  }
 }
 
 .benefitReversed {
@@ -34,12 +39,13 @@
 }
 
 .benefitDescription {
+  display:flex;
+  flex-direction: column;
   gap: var(--spacing-extra-tight);
 }
 
 .whyUsImage {
-  @media screen and (max-width: 768px) {
-    max-width: 300px;
-    max-height: 300px;
-  }
+  max-width:  264px;
+  max-height: 224px;
+  width: 50%;
 }
