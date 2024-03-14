@@ -87,8 +87,4 @@
   @media screen and (max-width: 768px) {
     align-self: center;
   }
-
-  @media screen and (max-width: 548px) {
-    align-self: flex-start;
-  }
 }
