@@ -14,8 +14,8 @@ export default function Index({
   if (link) {
     return (
       <Link
-        href="https://calendly.com/reduct-nepal/good-better-butter-your-content"
-        target="_blank"
+        href={link}
+        target={link.startsWith("/#") ? "" : "_blank"}
         rel="noopener noreferrer"
         className={`${styles.container} ${className} link`}
       >
