@@ -8,12 +8,20 @@
   align-items: center;
   gap: var(--spacing-normal);
   background: var(--background-brand-light);
+
+  @media screen and (max-width: 548px) {
+    padding: var(--spacing-small);
+  }
 }
 
 .packagesType {
   display: flex;
   align-items: center;
   gap: var(--spacing-tight);
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+  }
 }
 
 .package {
@@ -23,9 +31,14 @@
   align-items: flex-start;
   justify-content: flex-start;
   gap: var(--spacing-normal);
-  padding: var(--spacing-small) var(--spacing-small);
+  padding: var(--spacing-small);
   border: 1px solid var(--black);
   border-radius: 18px;
+
+  @media screen and (max-width: 768px) {
+    gap: var(--spacing-small);
+    padding: var(--spacing-extra-small);
+  }
 }
 
 .starterContainer {
@@ -106,6 +119,11 @@
   border-radius: 18px;
   padding: 48px;
   gap: var(--spacing-tight);
+
+  @media screen and (max-width: 768px) {
+    align-items: flex-start;
+    padding: var(--spacing-small);
+  }
 }
 
 .customPackageCta {

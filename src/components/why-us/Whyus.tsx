@@ -1,20 +1,22 @@
 import React from "react";
 import styles from "./whyUs.module.css";
-import { Benefit } from "./constants";
 import Image from "next/image";
+
+import { Benefit } from "./constants";
+
 export default function WhyUs(): React.ReactElement {
   return (
     <div
-      className={"container"}
+      className={`${styles.whyUsContainer} container`}
       id="whyUs"
     >
       {Benefit.map((benefit, index) => {
         const isEven = index % 2 != 0;
         return (
           <div
-            className={
-              styles.benefit + " " + (isEven ? styles.benefitReversed : "")
-            }
+            className={`${styles.benefit} ${
+              isEven ? styles.benefitReversed : ""
+            }`}
             key={index}
           >
             <div className={styles.benefitContent}>
@@ -24,6 +26,7 @@ export default function WhyUs(): React.ReactElement {
             </div>
             <div>
               <Image
+                className={styles.whyUsImage}
                 src={benefit.media}
                 alt="BenefitPhoto"
               />

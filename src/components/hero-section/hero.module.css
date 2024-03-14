@@ -17,10 +17,13 @@
 .heading {
   text-align: center;
   font-family: Geist Bold;
+
+  @media screen and (max-width: 548px) {
+    font-size: 36px;
+  }
 }
 
 .buttonContainer {
-  padding-top: 32px;
   display: flex;
   gap: var(--spacing-tight);
 

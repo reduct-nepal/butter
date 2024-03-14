@@ -73,7 +73,7 @@ const Pricing = () => {
 
   return (
     <section
-      className={styles.packagesContainer + " " + "container"}
+      className={`${styles.packagesContainer} container`}
       id="pricing"
     >
       <h2 className={styles.packagesboldText}>Pricing</h2>
