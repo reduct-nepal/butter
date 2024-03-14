@@ -1,15 +1,10 @@
-.container {
-  padding: 24px 120px;
-  width: 100%;
-}
-
 .main {
   position: relative;
-  margin: var(--spacing-normal) auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: var(--spacing-large);
+  gap: var(--spacing-tight);
+  padding: var(--spacing-large);
 }
 
 .heading {

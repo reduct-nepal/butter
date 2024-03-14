@@ -142,7 +142,7 @@ p {
 }
 
 .container {
-  padding: 0 var(--spacing-large);
+  padding: 0 120px;
 
   @media screen and (max-width: var(--lg)) {
     padding: 0 var(--spacing-normal);
@@ -151,4 +151,13 @@ p {
   @media screen and (max-width: var(--md)) {
     padding: 0 var(--spacing-small);
   }
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.main {
+  position: relative;
 }
