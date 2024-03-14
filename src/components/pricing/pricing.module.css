@@ -17,12 +17,13 @@
 }
 
 .package {
+  max-width: 460px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
   gap: var(--spacing-normal);
-  padding: var(--spacing-small);
+  padding: var(--spacing-small) var(--spacing-small);
   border: 1px solid var(--black);
   border-radius: 18px;
 }

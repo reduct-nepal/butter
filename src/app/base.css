@@ -144,11 +144,11 @@ p {
 .container {
   padding: 0 120px;
 
-  @media screen and (max-width: var(--lg)) {
+  @media screen and (max-width: 1080px) {
     padding: 0 var(--spacing-normal);
   }
 
-  @media screen and (max-width: var(--md)) {
+  @media screen and (max-width: 768px) {
     padding: 0 var(--spacing-small);
   }
 }
