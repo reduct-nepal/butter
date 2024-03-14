@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./cta_button.module.css";
+import styles from "./ctaButton.module.css";
 import Link from "next/link";
 
 export default function Index({
@@ -16,6 +16,7 @@ export default function Index({
       <Link
         href="https://calendly.com/reduct-nepal/good-better-butter-your-content"
         target="_blank"
+        rel="noopener noreferrer"
         className={`${styles.container} ${className} link`}
       >
         {children}

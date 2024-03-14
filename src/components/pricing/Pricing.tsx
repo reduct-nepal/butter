@@ -1,7 +1,8 @@
 import React from "react";
-import styles from "./packages.module.css";
+import styles from "./pricing.module.css";
+
+import CTAButton from "components/cta-button";
 import { packages } from "./constant";
-import Link from "next/link";
 
 interface CopyInterface {
   title: string;
@@ -14,7 +15,7 @@ interface CopyInterface {
   buttonClassName: string;
 }
 
-const Package = () => {
+const Pricing = () => {
   const packageType = (copy: Record<string, CopyInterface>, type: string) => {
     const {
       title,
@@ -42,13 +43,12 @@ const Package = () => {
               monh
             </p>
           </div>
-          <Link
+          <CTAButton
             className={styles.packageCta + " " + styles[buttonClassName]}
-            href={"https://calendly.com/yashant"}
-            target="_blank"
+            link="https://calendly.com/yashant"
           >
             {ctaText}
-          </Link>
+          </CTAButton>
         </div>
         <div className={styles.packagesSecondContainer}>
           <div className={styles.packagesColumn}>
@@ -88,16 +88,15 @@ const Package = () => {
             Get on a call to discover how we can help you make your inbound
             marketing effort buttery smooth.
           </p>
-          <Link
-            href={"https://calendly.com/yashant"}
-            target="_blank"
+          <CTAButton
+            link={"https://calendly.com/yashant"}
             className={styles.customPackageCta}
           >
             Book a call
-          </Link>
+          </CTAButton>
         </div>
       </div>
     </section>
   );
 };
-export default Package;
+export default Pricing;

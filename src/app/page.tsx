@@ -1,4 +1,4 @@
-import Package from "components/packages/Package";
+import Pricing from "root/components/pricing/Pricing";
 import Hero from "components/hero-section";
 
 import styles from "./page.module.css";
@@ -10,7 +10,7 @@ export default function Home() {
     <main className={styles.main}>
       <Hero />
       <WhyUs />
-      <Package />
+      <Pricing />
       <Footer />
     </main>
   );

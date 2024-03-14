@@ -23,13 +23,10 @@ export default function Navbar(): React.ReactElement {
         <span className={styles.separator}>.</span>
         <span>Examples</span>
       </div> */}
-        <Link
-          href="https://calendly.com/reduct-nepal/good-better-butter-your-content"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          <CTAButton>Talk to Us!</CTAButton>
-        </Link>
+
+        <CTAButton link="https://calendly.com/reduct-nepal/good-better-butter-your-content">
+          Talk to Us!
+        </CTAButton>
       </div>
     </section>
   );

@@ -1,7 +1,8 @@
 import React from "react";
 import styles from "./footer.module.css";
-import Link from "next/link";
 import Image from "next/image";
+
+import CTAButton from "components/cta-button";
 
 import LocationIcon from "../../assets/icons/location.svg";
 import MailIcon from "../../assets/icons/mail.svg";
@@ -21,13 +22,12 @@ export const Footer = () => {
           </div>
         </div>
         <p>You focus on building your products, and we’ll lead the growth. </p>
-        <Link
-          href="https://calendly.com/reduct-nepal/good-better-butter-your-content"
-          target="_blank"
+        <CTAButton
+          link="https://calendly.com/reduct-nepal/good-better-butter-your-content"
           className={styles.footerCta}
         >
           Book a call
-        </Link>
+        </CTAButton>
       </div>
       <div className={styles.copyrightContainer}>
         <p>All rights reserved 2024 @Butter Content</p>
