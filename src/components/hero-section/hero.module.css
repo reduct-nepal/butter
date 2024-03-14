@@ -1,36 +1,59 @@
 .main {
-  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   gap: var(--spacing-tight);
   padding: var(--spacing-large);
+  margin-top: var(--spacing-small);
+
+  @media screen and (max-width: 768px) {
+    padding: var(--spacing-large) var(--spacing-small);
+    gap: var(--spacing-tight);
+    margin-top: 0;
+  }
 }
 
 .heading {
-  margin-top: 12px;
-  margin-bottom: 32px;
   text-align: center;
   font-family: Geist Bold;
 }
 
-.button_container {
+.buttonContainer {
   padding-top: 32px;
+  display: flex;
+  gap: var(--spacing-tight);
+
+  @media screen and (max-width: 548px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: var(--spacing-tight);
+  }
 }
 
-.cta_button {
+.ctaButton {
   padding: 16px 20px;
-  margin-right: 28px;
 }
 
-.pricing_button {
+.pricingButton {
   padding: 16px 20px;
   background-color: var(--background-dark);
   color: var(--white);
 }
 
+.descContainer {
+  position: relative;
+  text-align: center;
+}
+
 .butterLogo {
   position: absolute;
-  left: 66%;
-  top: 52%;
+  left: 101%;
+  top: -100%;
+
+  @media screen and (max-width: 548px) {
+    top: -50%;
+    left: 98%;
+  }
 }
