@@ -31,7 +31,7 @@ export default function Hero(): React.ReactElement {
         </CTAButton>
         <CTAButton
           className={styles.pricingButton}
-          link="/#pricing"
+          link="#pricing"
         >
           Get Pricing
         </CTAButton>

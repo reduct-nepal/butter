@@ -15,7 +15,7 @@ export default function Index({
     return (
       <Link
         href={link}
-        target={link.startsWith("/#") ? "" : "_blank"}
+        target={link.startsWith("#") ? "" : "_blank"}
         rel="noopener noreferrer"
         className={`${styles.container} ${className} link`}
       >
