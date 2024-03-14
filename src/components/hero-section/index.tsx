@@ -27,7 +27,7 @@ export default function Hero(): React.ReactElement {
           className={styles.ctaButton}
           link="https://calendly.com/reduct-nepal/good-better-butter-your-content"
         >
-          Reach us out today!
+          Reach out to us today!
         </CTAButton>
         <CTAButton
           className={styles.pricingButton}
