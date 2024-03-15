@@ -1,32 +1,46 @@
 .whyUsContainer {
+  width: calc(10 / 12 * 100%);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: var(--spacing-normal);
+  margin: 0 auto;
+  padding: var(--spacing-normal);
+
+  @media screen and (max-width: 1080px) {
+    width: 100%;
+    padding: var(--spacing-normal);
+  }
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    padding: var(--spacing-small);
+  }
 }
 
 .benefit {
   display: flex;
   flex-direction: row;
-  gap: var(--spacing-normal);
   align-items: center;
-  align-content: center;
-  justify-content: center;
+  justify-content: space-between;
+  width: 100%;
 
   @media screen and (max-width: 1080px) {
     flex-direction: column;
-
+    align-items: flex-start;
+    gap: var(--spacing-small);
   }
 }
 
 .benefitContent {
+  width: calc(6.5 / 12 * 100%);
   display: flex;
   flex-direction: column;
   gap: var(--spacing-tight);
-  width:40%;
+
   @media screen and (max-width: 1080px) {
-    width:100%;
+    width: 100%;
   }
 }
 
@@ -39,13 +53,7 @@
 }
 
 .benefitDescription {
-  display:flex;
+  display: flex;
   flex-direction: column;
   gap: var(--spacing-extra-tight);
-}
-
-.whyUsImage {
-  max-width:  264px;
-  max-height: 224px;
-  width: 50%;
 }

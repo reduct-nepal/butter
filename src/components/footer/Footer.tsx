@@ -13,7 +13,10 @@ export const Footer = () => {
     <div className={styles.container}>
       <div className={styles.footerContainer}>
         <div className={styles.header}>
-          <h1>Get a free SEO audit of your website</h1>
+          <h1 className={styles.heading}>
+            Get a free SEO audit of your <br />
+            website
+          </h1>
           <div className={styles.underlinePosition}>
             <Image
               src={Underline}
