@@ -10,9 +10,9 @@ const ubuntu = Ubuntu({
 });
 
 export const metadata: Metadata = {
-  title: "Butter",
+  title: "Butter | Your Content Focused SEO Partner",
   description:
-    "Butter is a SEO Agency that offers pain point SEO for B2B SaaS companies.",
+    "Butter is a SEO Agency that offers pain-point SEO for B2B SaaS companies.",
 };
 
 export default function RootLayout({
