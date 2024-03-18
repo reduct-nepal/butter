@@ -4,16 +4,19 @@ import styles from "./hero.module.css";
 
 import CTAButton from "../CtaButton/CTAButton";
 import PunitImage from "assets/images/punit.png";
+import WaveSvg from "../../assets/images/heroWave.svg";
 
 export default function Hero(): React.ReactElement {
   return (
-    <div className="container">
+    <div className="container">  
       <div className={`${styles.heroContainer} section-container`}>
+        <div className="content-container">
         <h1>Converting high-intent customers through pain-point SEO</h1>
         <p>
           We help B2B SaaS companies find their high-intent BoFu keywords and
           create content that helps them rank on top of Google.{" "}
         </p>
+        </div>
         <CTAButton
           link="https://calendly.com/reduct-nepal/good-better-butter-your-content"
           className={styles.ctaButton}
@@ -27,6 +30,12 @@ export default function Hero(): React.ReactElement {
             Talk to a human
           </div>
         </CTAButton>
+      
+        <Image
+        className={styles.waveSvg}
+        src={WaveSvg}
+        alt="wave svg"
+      />
       </div>
     </div>
   );

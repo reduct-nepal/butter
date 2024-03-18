@@ -6,7 +6,7 @@ import Image from "next/image";
 import styles from "./faq.module.css";
 import ActiveAccordion from "assets/icons/activeAccordion.svg";
 import InActiveAccordion from "assets/icons/inActiveAccordion.svg";
-import FaqSvg from "assets/images/Faqsvg.svg"
+import FaqSvg from "assets/images/Faqsvg.svg";
 
 interface CopyInterface {
   question: string;
