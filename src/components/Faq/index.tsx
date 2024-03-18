@@ -30,7 +30,7 @@ export default function Faq({ copy }: FaqInterface): React.ReactElement {
   };
 
   return (
-    <section className="container">
+    <section className={`${styles.faqBg} container`}>
       <div className={`${styles.faqContainer} section-container`}>
         <h1 className={styles.faqHeading}>
           Frequently <br />

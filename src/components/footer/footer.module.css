@@ -14,15 +14,11 @@
   gap: var(--spacing-tight);
   align-items: center;
   background-color: var(--background-primary-gray);
-  padding: var(--spacing-large);
   text-align: center;
 
-  @media screen and (max-width: 768px) {
-    padding: var(--spacing-normal);
-  }
-
-  @media screen and (max-width: 548px) {
-    padding: var(--spacing-small);
+  @media screen and (max-width: 480px) {
+    text-align: left;
+    align-items: flex-start;
   }
 }
 
@@ -31,14 +27,12 @@
   transform: translate(-50%, -50%);
   left: 50%;
   top: 110%;
+
+  @media screen and (max-width: 480px) {
+    display: none;
+  }
 }
 
 .header {
   position: relative;
-}
-
-.heading {
-  @media screen and (max-width: 548px) {
-    font-size: var(--heading-small);
-  }
 }

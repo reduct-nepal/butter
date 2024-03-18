@@ -1,3 +1,7 @@
+.faqBg {
+  background-color: var(--background-primary-black);
+}
+
 .faqContainer {
   width: 100%;
   display: flex;

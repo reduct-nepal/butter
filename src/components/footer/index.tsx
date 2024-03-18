@@ -11,9 +11,7 @@ export default function Footer(): React.ReactElement {
     <div className="container">
       <div className={`${styles.footerContainer} section-container`}>
         <div className={styles.header}>
-          <h1 className={styles.heading}>
-            Get a free SEO audit of your website
-          </h1>
+          <h1>Get a free SEO audit of your website</h1>
           <div className={styles.underlinePosition}>
             <Image
               src={Underline}
@@ -21,9 +19,9 @@ export default function Footer(): React.ReactElement {
             />
           </div>
         </div>
-        <h4>
+        <p>
           You focus on building your products, and we&apos;ll lead the growth.{" "}
-        </h4>
+        </p>
         <CTAButton
           link="https://calendly.com/reduct-nepal/good-better-butter-your-content"
           className={styles.footerCta}

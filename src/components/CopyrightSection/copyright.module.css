@@ -46,7 +46,8 @@
   }
 }
 .copyrightReserved {
-  font-size: var(--body-text-small);
+  font-size: var(--body-text-caption);
+
   @media screen and (max-width: 768px) {
     align-self: flex-start;
   }
