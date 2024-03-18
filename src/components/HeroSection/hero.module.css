@@ -5,6 +5,7 @@
   align-items: flex-start;
   gap: var(--spacing-tight);
   margin-top: var(--spacing-normal);
+  margin: 0 auto;
 
   @media screen and (max-width: 768px) {
     width: 100%;
@@ -15,7 +16,6 @@
     width: 100%;
     margin-top: var(--spacing-tight);
   }
-
 }
 
 .ctaContainer {

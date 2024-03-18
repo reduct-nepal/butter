@@ -41,6 +41,7 @@
   --matte-black: #1d1d1d;
   --matte-gray: #212121;
   --light-gray: #ababaf;
+  --border-stroke: #313131;
 
   /* brand */
 
@@ -166,7 +167,6 @@ p {
 
 .container {
   padding: 0 120px;
-  margin: 0 auto;
 
   @media screen and (max-width: 768px) {
     padding: 0 var(--spacing-small);
