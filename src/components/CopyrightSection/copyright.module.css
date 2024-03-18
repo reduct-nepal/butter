@@ -1,7 +1,6 @@
 .copyrightContainer {
   max-width: 1440px;
   margin: auto;
-
   display: flex;
   justify-content: space-between;
   padding-top: var(--spacing-tight);
@@ -9,15 +8,10 @@
   color: var(--text-gray);
 
   @media screen and (max-width: 768px) {
-    padding: var(--spacing-tight) 0px;
     flex-direction: column-reverse;
+    align-items: flex-start;
     gap: var(--spacing-tight);
-    align-items: flex-start;
-  }
-
-  @media screen and (max-width: 480px) {
-    align-items: flex-start;
-    padding: var(--spacing-tight);
+    padding: var(--spacing-tight) 0;
   }
 }
 
