@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 import styles from "./navbar.module.css";
-import CTAButton from "components/cta-button";
+import CTAButton from "root/components/CtaButton";
 import Logo from "assets/images/global/logo-white.svg";
 
 export default function Navbar(): React.ReactElement {

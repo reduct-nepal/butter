@@ -1,9 +1,9 @@
-import Pricing from "root/components/pricing/Pricing";
-import Hero from "components/hero-section";
+import Hero from "components/HeroSection";
 
 import styles from "./page.module.css";
-import WhyUs from "components/why-us/Whyus";
-import { Footer } from "root/components/footer/Footer";
+import WhyUs from "components/WhyUs/Whyus";
+import Footer from "components/Footer";
+import Pricing from "components/Pricing";
 
 export default function Home() {
   return (

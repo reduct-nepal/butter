@@ -2,13 +2,13 @@ import React from "react";
 import styles from "./footer.module.css";
 import Image from "next/image";
 
-import CTAButton from "components/cta-button";
+import CTAButton from "root/components/CtaButton";
 
 import LocationIcon from "../../assets/icons/location.svg";
 import MailIcon from "../../assets/icons/mail.svg";
 import Underline from "../../assets/images/underline.svg";
 
-export const Footer = () => {
+export default function Footer(): React.ReactElement {
   return (
     <div className={styles.container}>
       <div className={styles.footerContainer}>
@@ -58,4 +58,4 @@ export const Footer = () => {
       </div>
     </div>
   );
-};
+}
