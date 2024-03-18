@@ -1,17 +1,17 @@
 import * as React from "react";
 import styles from "./page.module.css";
 
-import Hero from "components/Herosection";
-import Navbar from "components/Navbar";
-import Problem from "components/Problemsection";
-import ButterWay from "components/Butterway";
+import Hero from "components/HeroSection";
+import Navbar from "components/NavBar";
+import Problem from "components/ProblemSection";
+import ButterWay from "components/ButterWay";
 import Benefits from "components/Benefits";
-import Pricing from "components/Pricing";
+import Pricing from "components/pricing";
 import Faq from "components/Faq";
-import Footer from "components/Footer";
-import Copyright from "components/Copyrightsection";
+import Footer from "components/footer";
+import Copyright from "components/CopyrightSection";
 
-import { SolutionSectionCopy } from "components/Butterway/constant";
+import { SolutionSectionCopy } from "components/ButterWay/constant";
 import { BenefitsCopy } from "components/Benefits/constants";
 import { FaqSectionCopy } from "components/Faq/constant";
 
