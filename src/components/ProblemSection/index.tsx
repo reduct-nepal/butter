@@ -10,13 +10,13 @@ export default function Problem(): React.ReactElement {
       <div className={`${styles.problemContainer} section-container`}>
         <h1>
           {" "}
-          <span className={styles.greenText}>5x (↑) visits</span> doesn&apos;t
-          mean anything
+          <span className={styles.greenText}>5x visits</span> doesn&apos;t mean
+          anything
         </h1>
         {Problems.map((problem, index) => {
           return (
             <div
-              className={styles.problemList}
+              className={styles.problemTitleContainer}
               key={index}
             >
               <div className={styles.problemTitle}>
@@ -25,7 +25,7 @@ export default function Problem(): React.ReactElement {
                   src={problem.media}
                   alt="Quantity Icon"
                 />
-                <h3>{problem.title}</h3>
+                <h4>{problem.title}</h4>
               </div>
               <div className={styles.problemDescription}>
                 <p>{problem.list}</p>

@@ -1,6 +1,6 @@
-import Quantityimg from "assets/images/Quantityimg.png"
-import Robot from "assets/images/Robot.png"
-import Numbers from "assets/images/Numbers.png"
+import Quantityimg from "assets/images/Quantityimg.svg"
+import Robot from "assets/images/Robot.svg"
+import Numbers from "assets/images/Numbers.svg"
 export const Problems = [
     {
       title: "Quantity over quality is a myth",

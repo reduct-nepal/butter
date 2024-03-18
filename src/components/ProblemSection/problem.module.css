@@ -5,14 +5,18 @@
   justify-content: flex-start;
   gap: var(--spacing-small);
 }
+.containerColor {
+  background-color: var(--background-primary-black);
+}
 
-.problemList {
+.problemTitleContainer {
   max-width: 1440px;
   display: flex;
   flex-direction: column;
   background-color: var(--dark-gray);
   padding: var(--spacing-small);
   gap: var(--spacing-tight);
+  border-radius: 24px;
 }
 .problemTitle {
   display: flex;
