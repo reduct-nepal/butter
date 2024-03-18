@@ -143,6 +143,10 @@ h3 {
   @media screen and (max-width: 768px) {
     font-size: var(--heading-extra-small);
   }
+
+  @media screen and (max-width: 480px) {
+    font-size: var(--heading-tight);
+  }
 }
 
 h4 {

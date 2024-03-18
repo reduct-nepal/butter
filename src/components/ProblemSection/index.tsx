@@ -16,7 +16,7 @@ export default function Problem(): React.ReactElement {
         {Problems.map((problem, index) => {
           return (
             <div
-              className={styles.problemTitleContainer}
+              className={styles.problemCardContainer}
               key={index}
             >
               <div className={styles.problemTitle}>
