@@ -1,0 +1,58 @@
+.problemContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--spacing-small);
+}
+
+.containerColor {
+  background-color: var(--background-primary-black);
+}
+
+.problemCardContainer {
+  max-width: 1440px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--dark-gray);
+  padding: var(--spacing-small);
+  gap: var(--spacing-tight);
+  border-radius: 24px;
+
+  @media screen and (max-width: 480px) {
+    padding: var(--spacing-tight);
+  }
+}
+
+.problemTitle {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: var(--spacing-tight);
+
+  @media screen and (max-width: 768px) {
+    align-items: center;
+    gap: var(--spacing-extra-tight);
+  }
+
+  @media screen and (max-width: 480px) {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+.problemIcon {
+  @media screen and (max-width: 768px) {
+    width: 32px;
+    height: 32px;
+  }
+}
+.problemDescription {
+  width: calc(8 / 12 * 100%);
+
+  @media screen and (max-width: 1080px) {
+    width: 100%;
+  }
+}
+.greenText {
+  color: var(--green);
+}

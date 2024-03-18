@@ -3,6 +3,7 @@ import styles from "./page.module.css";
 
 import Hero from "../components/HeroSection";
 import Navbar from "root/components/NavBar";
+import Problem from "root/components/ProblemSection";
 import ButterWay from "components/ButterWay";
 import Benefits from "root/components/Benefits";
 import Pricing from "root/components/Pricing";
@@ -17,6 +18,7 @@ export default function Home() {
     <main className={styles.main}>
       <Navbar />
       <Hero />
+      <Problem />
       <ButterWay copy={SolutionSectionCopy} />
       <Benefits copy={BenefitsCopy} />
       <Pricing />

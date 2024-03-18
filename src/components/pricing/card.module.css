@@ -8,6 +8,10 @@
   border-radius: 18px;
   background-color: var(--dark-gray);
   padding: var(--spacing-small);
+
+  @media screen and (max-width: 480px) {
+    padding: var(--spacing-tight);
+  }
 }
 
 .topContainer {
