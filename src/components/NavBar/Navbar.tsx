@@ -5,7 +5,7 @@ import Link from "next/link";
 import styles from "./navbar.module.css";
 
 import Logo from "assets/images/global/logo-white.svg";
-import CTAButton from "root/components/Ctabutton/CTAButton";
+import CTAButton from "../CtaButton/CTAButton";
 
 export default function Navbar(): React.ReactElement {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./card.module.css";
 import Image, { StaticImageData } from "next/image";
-import CTAButton from "../Ctabutton/CTAButton";
+import CTAButton from "../CtaButton/CTAButton";
 
 interface PricingCopyInterface {
   title: string;

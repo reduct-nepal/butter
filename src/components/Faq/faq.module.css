@@ -1,7 +1,6 @@
 .faqBg {
   background-color: var(--background-primary-black);
 }
-
 .faqContainer {
   width: 100%;
   display: flex;
@@ -21,11 +20,20 @@
 }
 
 .faqHeading {
-  max-width: 387px;
+  position: relative;
+  width: 387px;
   width: calc(4 / 12 * 100%);
 
   @media screen and (max-width: 1080px) {
     width: 100%;
+  }
+}
+.faqSvg{
+  position: absolute;
+  left: -120px;
+  top: -50%;
+  @media screen and (max-width: 1080px) {
+    top: -64px;
   }
 }
 
