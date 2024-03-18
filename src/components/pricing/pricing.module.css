@@ -4,6 +4,10 @@
   gap: var(--spacing-small);
   align-items: center;
   justify-content: center;
+
+  @media screen and (max-width: 1080px) {
+    align-items: flex-start;  
+  }
 }
 
 .pricingCardContainer {
@@ -11,6 +15,10 @@
   gap: var(--spacing-tight);
   justify-content: center;
   align-items: center;
+  
+  @media screen and (max-width: 1080px) {
+    flex-direction: column; 
+  }
 }
 
 .verticalCardContainer {

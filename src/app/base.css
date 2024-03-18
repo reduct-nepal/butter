@@ -1,6 +1,6 @@
 :root {
   /* screen sizes */
-  --sm: 548px;
+  --sm: 480px;
   --md: 768px;
   --lg: 1080px;
   --xl: 1440px;
@@ -91,7 +91,7 @@ body {
 
 @font-face {
   font-family: "Recoleta SemiBold";
-  font-weight: 600;
+  font-weight: 500;
   src: url("../assets/fonts/Recoleta/Recoleta-SemiBold.ttf");
 }
 
@@ -109,19 +109,25 @@ body {
 
 /* Text style definition */
 h1 {
+  font-weight: 600;
   font-size: var(--heading-large);
   line-height: 110%;
-  font-family: "Recoleta Bold";
+  font-family: "Recoleta SemiBold";
 
   @media screen and (max-width: 768px) {
     font-size: var(--heading-regular);
   }
+
+  @media screen and (max-width: 480px) {
+    font-size: var(--heading-small);
+  }
 }
 
 h2 {
+  font-weight: 600;
   font-size: var(--heading-regular);
   line-height: 120%;
-  font-family: "Recoleta Bold";
+  font-family: "Recoleta SemiBold";
 
   @media screen and (max-width: 768px) {
     font-size: var(--heading-small);
@@ -129,6 +135,7 @@ h2 {
 }
 
 h3 {
+  font-weight: 600;
   font-size: var(--heading-small);
   line-height: 120%;
 
@@ -138,6 +145,7 @@ h3 {
 }
 
 h4 {
+  font-weight: 500;
   font-size: var(--heading-extra-small);
   line-height: 130%;
 
@@ -164,7 +172,7 @@ p {
     padding: 0 var(--spacing-small);
   }
 
-  @media screen and (max-width: 548px) {
+  @media screen and (max-width: 480px) {
     padding: 0 var(--spacing-tight);
   }
 }
@@ -179,6 +187,21 @@ p {
   padding-bottom: var(--spacing-large);
   max-width: 1440px;
   margin: auto;
+
+  @media screen and (max-width: 768px) {
+    padding-top: var(--spacing-normal);
+    padding-bottom: var(--spacing-normal);
+  }
+
+  @media screen and (max-width: 768px) {
+    padding-top: var(--spacing-normal);
+    padding-bottom: var(--spacing-normal);
+  }
+
+  @media screen and (max-width: 480px) {
+    padding-top: var(--spacing-normal);
+    padding-bottom: var(--spacing-normal);
+  }
 }
 
 .butter-text {
