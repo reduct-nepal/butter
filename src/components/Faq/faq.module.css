@@ -1,13 +1,16 @@
 .faqContainer {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: var(--spacing-small);
   align-items: flex-start;
+  margin: 0 auto;
 }
 
 .faqHeading {
   font-size: var(--heading-regular);
   max-width: 387px;
+  width: calc(4 / 12 * 100%);
 }
 
 .faqRightContainer {
@@ -20,14 +23,28 @@
 }
 
 .faqList {
+  width: 100%;
+  position: relative;
   display: flex;
   flex-direction: column;
   gap: var(--spacing-extra-tight);
   border-bottom: 1px solid var(--border-stroke);
-  padding-bottom: var(--spacing-small);;
+  padding-bottom: var(--spacing-small);
+  cursor: pointer;
 }
 
 .faqQuestion {
   color: var(--white);
   font-weight: 500;
+}
+
+.faqAnswer {
+  font-size: var(--body-text-small);
+}
+
+.accordionPosition {
+  position: absolute;
+  right: 0;
+  top: 0;
+  cursor: pointer;
 }

@@ -6,6 +6,7 @@
   align-items: flex-start;
   gap: var(--spacing-tight);
   margin-top: var(--spacing-normal);
+  margin: 0 auto;
 }
 
 .ctaContainer {
