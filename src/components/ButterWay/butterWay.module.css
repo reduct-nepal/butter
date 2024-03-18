@@ -1,0 +1,26 @@
+.butterWayContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.butterWayHeading {
+  font-size: var(--heading-extra-large);
+  max-width: 387px;
+}
+
+.butterWayRightContainer {
+  width: calc(8 / 12 * 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--spacing-small);
+}
+
+.butterWayList {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-tight);
+}
