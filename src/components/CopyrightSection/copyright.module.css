@@ -15,7 +15,7 @@
     align-items: flex-start;
   }
 
-  @media screen and (max-width: 548px) {
+  @media screen and (max-width: 480px) {
     align-items: flex-start;
     padding: var(--spacing-tight);
   }

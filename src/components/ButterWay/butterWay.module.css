@@ -22,7 +22,7 @@
     gap: var(--spacing-small);
   }
 
-  @media screen and (max-width: 488px) {
+  @media screen and (max-width: 480px) {
     font-size: var(--heading-small);
   }
 }
