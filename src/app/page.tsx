@@ -4,7 +4,10 @@ import styles from "./page.module.css";
 import Hero from "../components/HeroSection";
 import Navbar from "root/components/NavBar";
 import ButterWay from "components/ButterWay";
+import Benefits from "root/components/Benefits";
+
 import { SolutionSectionCopy } from "root/components/ButterWay/constant";
+import { BenefitsCopy } from "root/components/Benefits/constants";
 
 export default function Home() {
   return (
@@ -12,6 +15,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <ButterWay copy={SolutionSectionCopy} />
+      <Benefits copy={BenefitsCopy} />
     </main>
   );
 }

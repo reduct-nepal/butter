@@ -1,0 +1,43 @@
+.benefitsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--spacing-normal);
+}
+
+.heading {
+  text-align: center;
+}
+
+.copyContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--spacing-normal);
+}
+
+.copyParent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copyParentReversed {
+  flex-direction: row-reverse;
+}
+
+.benefitImage {
+  max-width: 520px;
+  width: 50%;
+}
+
+.listContainer {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--spacing-tight);
+}
