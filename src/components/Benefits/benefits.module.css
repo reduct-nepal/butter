@@ -10,10 +10,18 @@
   align-items: center;
   gap: var(--spacing-normal);
   margin: 0 auto;
+
+  @media screen and (max-width: 1080px) {
+    width: 100%;
+  }
 }
 
 .heading {
   text-align: center;
+
+  @media screen and (max-width: 1080px) {
+    text-align: left;
+  }
 }
 
 .copyContainer {
@@ -28,15 +36,33 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  @media screen and (max-width: 1080px) {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-small);
+  }
 }
 
 .copyParentReversed {
   flex-direction: row-reverse;
+
+  @media screen and (max-width: 1080px) {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
 
 .benefitImage {
   max-width: 520px;
   width: 50%;
+  @media screen and (max-width: 1080px) {
+    width: 100%;
+  }
+  @media screen and (max-width: 768px) {
+    max-width: 300px;
+    max-height: 246px;
+  }
 }
 
 .listContainer {
@@ -46,4 +72,12 @@
   align-items: flex-start;
   justify-content: center;
   gap: var(--spacing-tight);
+
+  @media screen and (max-width: 1080px) {
+    width: 100%;
+    justify-content: flex-start;
+  }
+  @media screen and (max-width: 768px) {
+    gap: var(--spacing-extra-tight);
+  }
 }
