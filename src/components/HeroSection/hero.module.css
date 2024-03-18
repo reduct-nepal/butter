@@ -1,0 +1,51 @@
+.heroContainer {
+  width: calc(11 / 12 * 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: var(--spacing-tight);
+  margin: 0 auto;
+  margin-top: var(--spacing-normal);
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    margin-top: var(--spacing-small);
+  }
+
+  @media screen and (max-width: 488px) {
+    width: 100%;
+    margin-top: var(--spacing-tight);
+  }
+}
+
+.ctaButton {
+  position: relative;
+  padding: var(--spacing-tight) !important;
+}
+.ctaContainer {
+  padding-left: 40px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: var(--spacing-extra-tight);
+  transition: all 0.1s ease;
+}
+.ctaImage {
+  position: absolute;
+  left: 24px;
+  width: 27px;
+  height: 27px;
+  border-radius: 42px;
+  transition: all 0.1s ease;
+}
+
+.ctaButton:hover .ctaImage {
+  rotate: -8deg;
+  width: 51px;
+  height: 51px;
+  left: 12px;
+}
+.ctaButton:hover .ctaContainer {
+  padding-left: 48px;
+}

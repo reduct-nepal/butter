@@ -1,11 +1,18 @@
+import * as React from "react";
 import type { Metadata } from "next";
+import { Ubuntu } from "next/font/google";
+
 import "./base.css";
-import Navbar from "components/nav-bar";
+
+const ubuntu = Ubuntu({
+  weight: ["300", "400", "500", "700"],
+  subsets: ["latin"],
+});
 
 export const metadata: Metadata = {
-  title: "butter",
+  title: "Butter | Your Content Focused SEO Partner",
   description:
-    "Butter is a SEO Agency that offers pain point SEO for B2B SaaS companies.",
+    "Butter is a SEO Agency that offers pain-point SEO for B2B SaaS companies.",
 };
 
 export default function RootLayout({
@@ -16,10 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <main className="main">
-          <Navbar />
-          {children}
-        </main>
+        <main className={ubuntu.className}>{children}</main>
       </body>
     </html>
   );
