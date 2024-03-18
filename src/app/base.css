@@ -197,16 +197,6 @@ p {
     padding-top: var(--spacing-normal);
     padding-bottom: var(--spacing-normal);
   }
-
-  @media screen and (max-width: 768px) {
-    padding-top: var(--spacing-normal);
-    padding-bottom: var(--spacing-normal);
-  }
-
-  @media screen and (max-width: 480px) {
-    padding-top: var(--spacing-normal);
-    padding-bottom: var(--spacing-normal);
-  }
 }
 
 .butter-text {
