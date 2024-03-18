@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export default function Problem(): React.ReactElement {
   return (
-    <div className="container">
+    <div className={`${styles.containerColor} container`}>
       <div className={`${styles.problemContainer} section-container`}>
         <h1>
           {" "}

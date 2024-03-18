@@ -14,9 +14,10 @@ export default function Hero(): React.ReactElement {
           We help B2B SaaS companies find their high-intent BoFu keywords and
           create content that helps them rank on top of Google.{" "}
         </p>
-        <CTAButton link="https://calendly.com/reduct-nepal/good-better-butter-your-content">
+        <CTAButton link="https://calendly.com/reduct-nepal/good-better-butter-your-content" className={styles.ctaButton}>
           <div className={styles.ctaContainer}>
             <Image
+              className={styles.ctaImage}
               src={PunitImage}
               alt="Human CTA face"
             />

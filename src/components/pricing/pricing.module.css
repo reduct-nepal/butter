@@ -6,7 +6,7 @@
   justify-content: center;
 
   @media screen and (max-width: 1080px) {
-    align-items: flex-start;  
+    align-items: flex-start;
   }
 }
 
@@ -15,9 +15,9 @@
   gap: var(--spacing-tight);
   justify-content: center;
   align-items: center;
-  
+
   @media screen and (max-width: 1080px) {
-    flex-direction: column; 
+    flex-direction: column;
   }
 }
 
@@ -37,4 +37,9 @@
   border: 1px solid var(--text-light);
   background: none;
   color: var(--text-light);
+}
+
+.transparentCta:hover {
+  background: var(--white);
+  color: var(--matte-black);
 }
