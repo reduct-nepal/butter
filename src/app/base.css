@@ -4,40 +4,57 @@
   --md: 768px;
   --lg: 1080px;
   --xl: 1440px;
+  --xxl: 1920px;
 
   /* Spacing */
   --spacing-large: 192px;
   --spacing-normal: 96px;
   --spacing-small: 48px;
-  --spacing-extra-small: 36px;
   --spacing-tight: 24px;
   --spacing-extra-tight: 12px;
 
   /* Font Size */
-  --text-large: 22px;
-  --text-normal: 18px;
-  --text-small: 14px;
-  --text-caption: 12px;
+
+  /* heading */
+  --heading-extra-large: 96px;
+  --heading-large: 64px;
+  --heading-regular: 48px;
+  --heading-small: 32px;
+  --heading-extra-small: 24px;
+  --heading-tight: 18px;
+
+  /* body */
+  --body-text-large: 24px;
+  --body-text-regular: 18px;
+  --body-text-small: 16px;
+  --body-text-caption: 12px;
 
   /* Theme */
 
   /* colors */
-  --black: #212121;
-  --white: #ffffff;
+  --black: #000;
+  --white: #fffeeb;
   --light-yellow: #fdf6dd;
-  --yellow: #ffbe01;
+  --yellow: #fffa80;
+  --green: #80ff8d;
+  --dark-gray: #262626;
+  --matte-black: #1d1d1d;
+  --matte-gray: #212121;
+  --light-gray: #ababaf;
 
-  /* background */
-  --background-dark: var(--black);
-  --background-white: var(--white);
-  --background-brand-light: var(--light-yellow);
+  /* brand */
 
-  --primary: var(--yellow);
+  --butter-yellow: var(--yellow);
 
-  /* text color */
-  --text-dark: var(--black);
+  --background-primary-black: var(--matte-black);
+  --background-primary-gray: var(--matte-gray);
+  --background-secondary-black: var(--black);
+
+  --text-primary: var(--light-yellow);
   --text-light: var(--white);
-  --text-gray: #ccc;
+  --text-gray: var(--light-gray);
+  --text-yellow: var(--yellow);
+  --text-green: var(--green);
 }
 
 * {
@@ -50,114 +67,110 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
-  font-family: Geist Regular, sans-serif;
-  background-color: var(--background-brand-light);
+  font-family: "Recoleta Regular", sans-serif;
+  background-color: var(--background-primary-gray);
 }
 
 @font-face {
-  font-family: Geist Light;
-  font-weight: 300;
-  src: url("../assets/fonts/Geist-Light.otf") format("opentype");
+  font-family: "Recoleta Light";
+  src: url("../assets/fonts/Recoleta/Recoleta-Light.ttf");
 }
 
 @font-face {
-  font-family: Geist Regular;
+  font-family: "Recoleta Regular";
   font-weight: 400;
-  src: url("../assets/fonts/Geist-Regular.otf") format("opentype");
+  src: url("../assets/fonts/Recoleta/Recoleta-Regular.ttf");
 }
 
 @font-face {
-  font-family: Geist Medium;
+  font-family: "Recoleta Medium";
   font-weight: 500;
-  src: url("../assets/fonts/Geist-Medium.otf") format("opentype");
+  src: url("../assets/fonts/Recoleta/Recoleta-Medium.ttf");
 }
 
 @font-face {
-  font-family: Geist SemiBold;
+  font-family: "Recoleta SemiBold";
   font-weight: 600;
-  src: url("../assets/fonts/Geist-SemiBold.otf") format("opentype");
+  src: url("../assets/fonts/Recoleta/Recoleta-SemiBold.ttf");
 }
 
 @font-face {
-  font-family: Geist Bold;
+  font-family: "Recoleta Bold";
   font-weight: 700;
-  src: url("../assets/fonts/Geist-Bold.otf") format("opentype");
+  src: url("../assets/fonts/Recoleta/Recoleta-Bold.ttf");
 }
 
 @font-face {
-  font-family: Geist Heavy;
+  font-family: "Recoleta Heavy";
   font-weight: 800;
-  src: url("../assets/fonts/Geist-UltraBlack.otf") format("opentype");
+  src: url("../assets/fonts/Recoleta/Recoleta-Black.ttf");
 }
 
 /* Text style definition */
 h1 {
-  font-size: 64px;
-  line-height: 100%;
-  font-family: Geist Bold;
+  font-size: var(--heading-large);
+  line-height: 110%;
+  font-family: "Recoleta Bold";
 
   @media screen and (max-width: 768px) {
-    font-size: 48px;
+    font-size: var(--heading-regular);
   }
 }
 
 h2 {
-  font-size: 48px;
-  line-height: 110%;
-  font-family: Geist Bold;
+  font-size: var(--heading-regular);
+  line-height: 120%;
+  font-family: "Recoleta Bold";
 
   @media screen and (max-width: 768px) {
-    font-size: 32px;
+    font-size: var(--heading-small);
   }
 }
 
 h3 {
-  font-size: 32px;
+  font-size: var(--heading-small);
   line-height: 120%;
-  font-family: Geist Bold;
+  font-family: "Recoleta Bold";
 
   @media screen and (max-width: 768px) {
-    font-size: 24px;
+    font-size: var(--heading-extra-small);
   }
 }
 
 h4 {
-  font-size: 24px;
-  line-height: 140%;
-  font-weight: 400;
+  font-size: var(--heading-extra-small);
+  line-height: 130%;
+  font-family: "Recoleta Bold";
 
   @media screen and (max-width: 768px) {
-    font-size: 18px;
+    font-size: var(--heading-tight);
   }
 }
 
 p {
-  font-size: 18px;
-  line-height: 145%;
-  font-weight: 400;
+  font-size: var(--body-text-regular);
+  line-height: 150%;
+  font-family: "Recoleta Regular";
 
   @media screen and (max-width: 768px) {
-    font-size: 16px;
+    font-size: var(--body-text-small);
   }
 }
 
 .container {
   padding: 0 120px;
-
-  @media screen and (max-width: 1080px) {
-    padding: 0 var(--spacing-normal);
-  }
+  max-width: 1440px;
 
   @media screen and (max-width: 768px) {
     padding: 0 var(--spacing-small);
+  }
+
+  @media screen and (max-width: 548px) {
+    padding: 0 var(--spacing-tight);
   }
 }
 
 .link {
   text-decoration: none;
   color: inherit;
-}
-
-.main {
-  position: relative;
 }
