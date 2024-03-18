@@ -181,3 +181,7 @@ p {
   padding-bottom: var(--spacing-large);
   max-width: 1440px;
 }
+
+.butter-text {
+  color: var(--butter-yellow);
+}
