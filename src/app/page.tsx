@@ -2,16 +2,18 @@ import * as React from "react";
 import styles from "./page.module.css";
 
 import Hero from "../components/HeroSection";
-import Navbar from "root/components/NavBar";
-import Problem from "root/components/ProblemSection";
+import Navbar from "components/NavBar";
+import Problem from "components/ProblemSection";
 import ButterWay from "components/ButterWay";
-import Benefits from "root/components/Benefits";
-import Pricing from "root/components/Pricing";
-import Faq from "root/components/Faq";
+import Benefits from "components/Benefits";
+import Pricing from "components/Pricing";
+import Faq from "components/Faq";
+import Footer from "components/Footer";
+import Copyright from "components/CopyrightSection";
 
-import { SolutionSectionCopy } from "root/components/ButterWay/constant";
-import { BenefitsCopy } from "root/components/Benefits/constants";
-import { FaqSectionCopy } from "root/components/Faq/constant";
+import { SolutionSectionCopy } from "components/ButterWay/constant";
+import { BenefitsCopy } from "components/Benefits/constants";
+import { FaqSectionCopy } from "components/Faq/constant";
 
 export default function Home() {
   return (
@@ -23,6 +25,8 @@ export default function Home() {
       <Benefits copy={BenefitsCopy} />
       <Pricing />
       <Faq copy={FaqSectionCopy} />
+      <Footer />
+      <Copyright />
     </main>
   );
 }
