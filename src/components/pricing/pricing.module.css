@@ -1,0 +1,40 @@
+.pricingContainer {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-small);
+  align-items: center;
+  justify-content: center;
+
+  @media screen and (max-width: 1080px) {
+    align-items: flex-start;  
+  }
+}
+
+.pricingCardContainer {
+  display: flex;
+  gap: var(--spacing-tight);
+  justify-content: center;
+  align-items: center;
+  
+  @media screen and (max-width: 1080px) {
+    flex-direction: column; 
+  }
+}
+
+.verticalCardContainer {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-tight);
+  align-self: stretch;
+  flex: 1 0 0;
+}
+
+.cardFit {
+  align-self: stretch;
+}
+
+.transparentCta {
+  border: 1px solid var(--text-light);
+  background: none;
+  color: var(--text-light);
+}
