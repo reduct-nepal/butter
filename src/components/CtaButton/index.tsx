@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./ctaButton.module.css";
 import Link from "next/link";
 
-export default function Index({
+export default function CTAButton({
   children,
   className = "",
   link,

@@ -1,0 +1,16 @@
+.heroContainer {
+  width: calc(11 / 12 * 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: var(--spacing-tight);
+  margin-top: var(--spacing-normal);
+}
+
+.ctaContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: var(--spacing-extra-tight);
+}
