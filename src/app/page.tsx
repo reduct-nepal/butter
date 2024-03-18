@@ -19,8 +19,8 @@ export default function Home() {
       <Hero />
       <ButterWay copy={SolutionSectionCopy} />
       <Benefits copy={BenefitsCopy} />
-      <Faq copy={FaqSectionCopy} />
       <Pricing />
+      <Faq copy={FaqSectionCopy} />
     </main>
   );
 }

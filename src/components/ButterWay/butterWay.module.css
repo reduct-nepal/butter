@@ -14,6 +14,7 @@
 .butterWayHeading {
   font-size: var(--heading-extra-large);
   width: 387px;
+
   @media screen and (max-width: 1080px) {
     font-size: var(--heading-large);
     width: 100%;
