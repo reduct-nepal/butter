@@ -1,12 +1,12 @@
 import React from "react";
 import styles from "./pricing.module.css";
 
-import Card from "./Card";
 import {
   PRICING_GROWTH_COPY,
   ONE_OFF_BLOG_COPY,
   CUSTOM_PRICING_COPY,
 } from "./constant";
+import Card from "./Card";
 
 export default function Pricing(): React.ReactElement {
   return (

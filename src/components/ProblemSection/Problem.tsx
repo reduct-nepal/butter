@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "./problem.module.css";
+import Image from "next/image";
 
 import { Problems } from "./constants";
-import Image from "next/image";
 
 export default function Problem(): React.ReactElement {
   return (
