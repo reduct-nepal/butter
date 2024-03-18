@@ -1,11 +1,21 @@
 .heroContainer {
-  width: calc(11 / 12 * 100%);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   gap: var(--spacing-tight);
   margin-top: var(--spacing-normal);
+  margin: 0 auto;
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    margin-top: var(--spacing-small);
+  }
+
+  @media screen and (max-width: 488px) {
+    width: 100%;
+    margin-top: var(--spacing-tight);
+  }
 }
 
 .ctaContainer {
