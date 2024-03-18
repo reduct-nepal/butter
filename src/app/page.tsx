@@ -1,19 +1,19 @@
 import * as React from "react";
 import styles from "./page.module.css";
 
-import Hero from "../components/HeroSection";
-import Navbar from "components/NavBar";
-import Problem from "components/ProblemSection";
-import ButterWay from "components/ButterWay";
-import Benefits from "components/Benefits";
-import Pricing from "components/Pricing";
-import Faq from "components/Faq";
-import Footer from "components/Footer";
-import Copyright from "components/CopyrightSection";
+import Hero from "../components/herosection";
+import Navbar from "root/components/navbar";
+import Problem from "root/components/problemsection";
+import ButterWay from "root/components/butterway";
+import Benefits from "root/components/benefits";
+import Pricing from "root/components/pricing";
+import Faq from "components/faq";
+import Footer from "root/components/footer";
+import Copyright from "root/components/copyrightsection";
 
-import { SolutionSectionCopy } from "components/ButterWay/constant";
-import { BenefitsCopy } from "components/Benefits/constants";
-import { FaqSectionCopy } from "components/Faq/constant";
+import { SolutionSectionCopy } from "root/components/butterway/constant";
+import { BenefitsCopy } from "root/components/benefits/constants";
+import { FaqSectionCopy } from "components/faq/constant";
 
 export default function Home() {
   return (

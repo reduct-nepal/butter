@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./footer.module.css";
 import Image from "next/image";
 
-import CTAButton from "components/CtaButton";
+import CTAButton from "root/components/ctabutton";
 
 import Underline from "assets/images/underline.svg";
 
