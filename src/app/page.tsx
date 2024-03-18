@@ -8,6 +8,7 @@ import Benefits from "root/components/Benefits";
 
 import { SolutionSectionCopy } from "root/components/ButterWay/constant";
 import { BenefitsCopy } from "root/components/Benefits/constants";
+import Pricing from "root/components/Pricing";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Hero />
       <ButterWay copy={SolutionSectionCopy} />
       <Benefits copy={BenefitsCopy} />
+      <Pricing />
     </main>
   );
 }

@@ -182,7 +182,8 @@ p {
   padding-top: var(--spacing-large);
   padding-bottom: var(--spacing-large);
   max-width: 1440px;
-  
+  margin: auto;
+
   @media screen and (max-width: 768px) {
     padding-top: var(--spacing-normal);
     padding-bottom: var(--spacing-normal);

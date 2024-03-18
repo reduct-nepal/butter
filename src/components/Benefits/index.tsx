@@ -15,7 +15,7 @@ export default function Benefits({
   copy: Array<BenefitsCopyInterface>;
 }): React.ReactElement {
   return (
-    <section className="container">
+    <section className={`${styles.benefitsBg} container`}>
       <div className={`${styles.benefitsContainer} section-container`}>
         <h1 className={styles.heading}>
           We help you create content that drives your growth,{" "}
