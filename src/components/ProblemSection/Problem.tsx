@@ -10,7 +10,7 @@ export default function Problem(): React.ReactElement {
       <div className={`${styles.problemContainer} section-container`}>
         <h1>
           {" "}
-          <span className={styles.greenText}>5x visits</span> doesn&apos;t mean
+          <span className={styles.greenText}>5x (↑) visits</span> doesn&apos;t mean
           anything
         </h1>
         {Problems.map((problem, index) => {
