@@ -31,7 +31,7 @@ export default function Faq({ copy }: FaqInterface): React.ReactElement {
 
   return (
     <section className={`${styles.faqBg} container`}>
-      <div className={`${styles.faqContainer} section-container`}>
+      <div className={`${styles.faqContainer} sectionContainer`}>
         <h1 className={styles.faqHeading}>
           Frequently <br />
           asked questions

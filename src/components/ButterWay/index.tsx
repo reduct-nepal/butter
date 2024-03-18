@@ -14,7 +14,7 @@ export default function ButterWay({
 }: ButterWayInterface): React.ReactElement {
   return (
     <section className="container">
-      <div className={`${styles.butterWayContainer} section-container`}>
+      <div className={`${styles.butterWayContainer} sectionContainer`}>
         <h1 className={styles.butterWayHeading}>
           the <span className="butter-text">butter</span> way
         </h1>

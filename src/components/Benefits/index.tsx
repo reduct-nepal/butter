@@ -16,7 +16,7 @@ export default function Benefits({
 }): React.ReactElement {
   return (
     <section className={`${styles.benefitsBg} container`}>
-      <div className={`${styles.benefitsContainer} section-container`}>
+      <div className={`${styles.benefitsContainer} sectionContainer`}>
         <h1 className={styles.heading}>
           We help you create content that drives your growth,{" "}
           <span className="butter-text">quickly.</span>

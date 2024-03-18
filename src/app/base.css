@@ -187,7 +187,7 @@ p {
   color: inherit;
 }
 
-.section-container {
+.sectionContainer {
   padding-top: var(--spacing-large);
   padding-bottom: var(--spacing-large);
   max-width: 1440px;
