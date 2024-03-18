@@ -1,6 +1,6 @@
 :root {
   /* screen sizes */
-  --sm: 548px;
+  --sm: 480px;
   --md: 768px;
   --lg: 1080px;
   --xl: 1440px;
@@ -116,6 +116,10 @@ h1 {
   @media screen and (max-width: 768px) {
     font-size: var(--heading-regular);
   }
+
+  @media screen and (max-width: 480px) {
+    font-size: var(--heading-small);
+  }
 }
 
 h2 {
@@ -164,7 +168,7 @@ p {
     padding: 0 var(--spacing-small);
   }
 
-  @media screen and (max-width: 548px) {
+  @media screen and (max-width: 480px) {
     padding: 0 var(--spacing-tight);
   }
 }
@@ -178,6 +182,21 @@ p {
   padding-top: var(--spacing-large);
   padding-bottom: var(--spacing-large);
   max-width: 1440px;
+  
+  @media screen and (max-width: 768px) {
+    padding-top: var(--spacing-normal);
+    padding-bottom: var(--spacing-normal);
+  }
+
+  @media screen and (max-width: 768px) {
+    padding-top: var(--spacing-normal);
+    padding-bottom: var(--spacing-normal);
+  }
+
+  @media screen and (max-width: 480px) {
+    padding-top: var(--spacing-normal);
+    padding-bottom: var(--spacing-normal);
+  }
 }
 
 .butter-text {

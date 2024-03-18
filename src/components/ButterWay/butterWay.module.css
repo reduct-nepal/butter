@@ -3,11 +3,27 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-}
+
+  @media screen and (max-width: 1080px) {
+   flex-direction: column;
+   gap: var(--spacing-small);
+    }  
+  }
+
 
 .butterWayHeading {
   font-size: var(--heading-extra-large);
-  max-width: 387px;
+  width: 387px;
+  @media screen and (max-width: 1080px) {
+    font-size: var(--heading-large);
+    width: 100%;
+    flex-direction: column;
+    gap: var(--spacing-small);
+  }  
+
+  @media screen and (max-width: 488px) {
+    font-size: var(--heading-small);
+  }
 }
 
 .butterWayRightContainer {
@@ -17,6 +33,11 @@
   align-items: flex-start;
   justify-content: flex-start;
   gap: var(--spacing-small);
+
+  @media screen and (max-width: 1080px) {
+    width: 100%;
+  }
+
 }
 
 .butterWayList {
