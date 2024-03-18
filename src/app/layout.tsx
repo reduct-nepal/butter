@@ -1,6 +1,12 @@
 import type { Metadata } from "next";
+import { Ubuntu } from "next/font/google";
+
 import "./base.css";
-import Navbar from "root/components/NavBar";
+
+const ubuntu = Ubuntu({
+  weight: "400",
+  subsets: ["latin"],
+});
 
 export const metadata: Metadata = {
   title: "Butter",
@@ -16,10 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <main className="main">
-          <Navbar />
-          {children}
-        </main>
+        <main className={ubuntu.className}>{children}</main>
       </body>
     </html>
   );

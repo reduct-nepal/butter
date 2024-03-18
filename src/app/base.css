@@ -150,7 +150,6 @@ h4 {
 p {
   font-size: var(--body-text-regular);
   line-height: 150%;
-  font-family: "Recoleta Regular";
 
   @media screen and (max-width: 768px) {
     font-size: var(--body-text-small);
