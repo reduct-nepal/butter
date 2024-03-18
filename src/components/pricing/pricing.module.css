@@ -43,3 +43,9 @@
   background: var(--white);
   color: var(--matte-black);
 }
+
+.pricingCriteria {
+  @media screen and (max-width: 480px) {
+    font-size: var(--body-text-caption);
+  }
+}
