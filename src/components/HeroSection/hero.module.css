@@ -8,9 +8,34 @@
   margin-top: var(--spacing-normal);
 }
 
+
+.ctaButton{
+  position: relative;
+  padding: var(--spacing-tight) !important;
+}
 .ctaContainer {
+  padding-left: 40px;
   display: flex;
-  justify-content: flex-start;
+  justify-content: flex-end;
   align-items: center;
   gap: var(--spacing-extra-tight);
+  transition: all 0.1s ease;
+}
+.ctaImage{
+  position: absolute;
+  left: 24px;
+  width: 27px;
+  height: 27px;
+  border-radius: 42px;
+  transition: all 0.1s ease;
+}
+
+.ctaButton:hover .ctaImage{
+  rotate: -8deg;
+  width: 51px;
+  height: 51px;
+  left: 12px;
+}
+.ctaButton:hover .ctaContainer{
+  padding-left: 48px;
 }
