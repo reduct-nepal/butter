@@ -1,11 +1,12 @@
 .heroContainer {
+  width: calc(11 / 12 * 100%);
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   gap: var(--spacing-tight);
-  margin-top: var(--spacing-normal);
   margin: 0 auto;
+  margin-top: var(--spacing-normal);
 
   @media screen and (max-width: 768px) {
     width: 100%;
@@ -18,8 +19,7 @@
   }
 }
 
-
-.ctaButton{
+.ctaButton {
   position: relative;
   padding: var(--spacing-tight) !important;
 }
@@ -31,7 +31,7 @@
   gap: var(--spacing-extra-tight);
   transition: all 0.1s ease;
 }
-.ctaImage{
+.ctaImage {
   position: absolute;
   left: 24px;
   width: 27px;
@@ -40,12 +40,12 @@
   transition: all 0.1s ease;
 }
 
-.ctaButton:hover .ctaImage{
+.ctaButton:hover .ctaImage {
   rotate: -8deg;
   width: 51px;
   height: 51px;
   left: 12px;
 }
-.ctaButton:hover .ctaContainer{
+.ctaButton:hover .ctaContainer {
   padding-left: 48px;
 }
