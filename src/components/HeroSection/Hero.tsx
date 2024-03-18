@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import styles from "./hero.module.css";
 
-import CTAButton from "../ctabutton";
+import CTAButton from "../ctabutton/CTAButton";
 import PunitImage from "assets/images/punit.png";
 
 export default function Hero(): React.ReactElement {
