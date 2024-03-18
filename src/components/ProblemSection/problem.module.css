@@ -38,7 +38,7 @@
 .problemDescription {
   width: calc(8 / 12 * 100%);
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1080px) {
     width: 100%;
   }
 }
