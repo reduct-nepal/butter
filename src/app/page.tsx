@@ -1,17 +1,14 @@
-import Hero from "components/HeroSection";
-
+import * as React from "react";
 import styles from "./page.module.css";
-import WhyUs from "components/WhyUs/Whyus";
-import Footer from "components/Footer";
-import Pricing from "components/Pricing";
+
+import Hero from "../components/HeroSection";
+import Navbar from "root/components/NavBar";
 
 export default function Home() {
   return (
     <main className={styles.main}>
+      <Navbar />
       <Hero />
-      <WhyUs />
-      <Pricing />
-      <Footer />
     </main>
   );
 }

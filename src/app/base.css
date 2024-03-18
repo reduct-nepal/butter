@@ -69,6 +69,7 @@ body {
   overflow-x: hidden;
   font-family: "Recoleta Regular", sans-serif;
   background-color: var(--background-primary-gray);
+  color: var(--text-light);
 }
 
 @font-face {
@@ -150,6 +151,7 @@ h4 {
 p {
   font-size: var(--body-text-regular);
   line-height: 150%;
+  color: var(--text-gray);
 
   @media screen and (max-width: 768px) {
     font-size: var(--body-text-small);
@@ -158,7 +160,7 @@ p {
 
 .container {
   padding: 0 120px;
-  max-width: 1440px;
+  margin: 0 auto;
 
   @media screen and (max-width: 768px) {
     padding: 0 var(--spacing-small);
@@ -172,4 +174,10 @@ p {
 .link {
   text-decoration: none;
   color: inherit;
+}
+
+.section-container {
+  padding-top: var(--spacing-large);
+  padding-bottom: var(--spacing-large);
+  max-width: 1440px;
 }
