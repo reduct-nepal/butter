@@ -8,7 +8,7 @@ import PunitImage from "assets/images/punit.png";
 export default function Hero(): React.ReactElement {
   return (
     <div className="container">
-      <div className={`${styles.heroContainer} section-container`}>
+      <div className={`${styles.heroContainer} sectionContainer`}>
         <h1>Converting high-intent customers through pain-point SEO</h1>
         <p>
           We help B2B SaaS companies find their high-intent BoFu keywords and

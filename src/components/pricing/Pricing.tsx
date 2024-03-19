@@ -11,7 +11,7 @@ import Card from "./Card";
 export default function Pricing(): React.ReactElement {
   return (
     <section className="container">
-      <div className={`${styles.pricingContainer} section-container`}>
+      <div className={`${styles.pricingContainer} sectionContainer`}>
         <h1>
           Pricing<span className="butter-text">.</span>
         </h1>

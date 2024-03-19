@@ -6,7 +6,7 @@ import Image from "next/image";
 import styles from "./faq.module.css";
 import ActiveAccordion from "assets/icons/activeAccordion.svg";
 import InActiveAccordion from "assets/icons/inActiveAccordion.svg";
-import FaqSvg from "assets/images/Faqsvg.svg"
+import FaqSvg from "assets/images/Faqsvg.svg";
 
 interface CopyInterface {
   question: string;
@@ -32,15 +32,14 @@ export default function Faq({ copy }: FaqInterface): React.ReactElement {
 
   return (
     <section className={`${styles.faqBg} container`}>
-      <div className={`${styles.faqContainer} section-container`}>
-     
+      <div className={`${styles.faqContainer} sectionContainer`}>
         <h1 className={styles.faqHeading}>
           Frequently asked questions
           <Image
-        className={styles.faqSvg}
-        src={FaqSvg}
-        alt="FAQ svg"
-      />
+            className={styles.faqSvg}
+            src={FaqSvg}
+            alt="FAQ svg"
+          />
         </h1>
         <div className={styles.faqRightContainer}>
           {copy.map((list) => (

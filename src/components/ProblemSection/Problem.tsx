@@ -7,7 +7,7 @@ import { Problems } from "./constants";
 export default function Problem(): React.ReactElement {
   return (
     <div className={`${styles.containerColor} container`}>
-      <div className={`${styles.problemContainer} section-container`}>
+      <div className={`${styles.problemContainer} sectionContainer`}>
         <h1>
           {" "}
           <span className={styles.greenText}>5x (↑) visits</span> doesn&apos;t mean

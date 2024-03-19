@@ -1,5 +1,5 @@
 .heroContainer {
-  width: calc(11 / 12 * 100%);
+  max-width: 1090px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10,12 +10,6 @@
 
   @media screen and (max-width: 768px) {
     width: 100%;
-    margin-top: var(--spacing-small);
-  }
-
-  @media screen and (max-width: 488px) {
-    width: 100%;
-    margin-top: var(--spacing-tight);
   }
 }
 

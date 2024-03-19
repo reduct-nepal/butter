@@ -28,7 +28,7 @@
 }
 
 .navCta {
-  @media screen and (max-width: 548px) {
+  @media screen and (max-width: 480px) {
     font-size: 14px !important;
     padding: var(--spacing-extra-tight) !important;
   }

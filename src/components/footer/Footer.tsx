@@ -9,7 +9,7 @@ import Underline from "assets/images/underline.svg";
 export default function Footer(): React.ReactElement {
   return (
     <div className="container">
-      <div className={`${styles.footerContainer} section-container`}>
+      <div className={`${styles.footerContainer} sectionContainer`}>
         <div className={styles.header}>
           <h1>Get a free SEO audit of your website</h1>
           <div className={styles.underlinePosition}>
