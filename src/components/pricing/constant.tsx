@@ -1,11 +1,12 @@
 import DoubleStar from "assets/icons/doubleStar.svg";
+import styles from "./pricing.module.css";
 
 export const PRICING_GROWTH_COPY = {
   title: "Growth",
   titleIcon: DoubleStar,
   pricing: "$6k",
   pricingCriteria: (
-    <p>
+    <p className={styles.pricingCriteria}>
       per <br /> month
     </p>
   ),

@@ -1,8 +1,7 @@
 import React from "react";
 import styles from "./butterWay.module.css";
 import Image from "next/image";
-import DottedImage from "assets/images/Dots.svg"
-
+import DottedImage from "assets/images/Dots.svg";
 
 interface CopyInterface {
   title: string;
@@ -17,8 +16,8 @@ export default function ButterWay({
 }: ButterWayInterface): React.ReactElement {
   return (
     <section className="container">
-      <div className={`${styles.butterWayContainer} section-container`}>
-      <Image
+      <div className={`${styles.butterWayContainer} sectionContainer`}>
+        <Image
           className={styles.DottedMobSvg}
           src={DottedImage}
           alt="Dotted svg"
@@ -26,10 +25,10 @@ export default function ButterWay({
         <h1 className={styles.butterWayHeading}>
           the <span className="butter-text">butter</span> way
           <Image
-          className={styles.DottedDeskSvg}
-          src={DottedImage}
-          alt="Dotted svg"
-        />
+            className={styles.DottedDeskSvg}
+            src={DottedImage}
+            alt="Dotted svg"
+          />
         </h1>
         <div className={styles.butterWayRightContainer}>
           {copy.map((list) => (

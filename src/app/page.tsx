@@ -1,15 +1,15 @@
 import * as React from "react";
 import styles from "./page.module.css";
 
-import Hero from "../components/HeroSection/Hero";
-import Navbar from "../components/NavBar/Navbar";
-import Problem from "../components/ProblemSection/Problem";
-import Benefits from "../components/Benefits/Benefits";
-import Pricing from "../components/Pricing/Pricing";
-import Faq from "../components/Faq/Faq";
-import Footer from "../components/Footer/Footer";
-import Copyright from "../components/CopyrightSection/Copyright";
-import ButterWay from "../components/ButterWay/ButterWay";
+import HeroSection from "components/HeroSection";
+import Navbar from "components/NavBar";
+import Problem from "components/ProblemSection";
+import ButterWay from "components/ButterWay";
+import Benefits from "components/Benefits";
+import Pricing from "components/pricing";
+import Faq from "components/Faq";
+import Footer from "components/footer";
+import Copyright from "components/CopyrightSection";
 
 import { SolutionSectionCopy } from "../components/ButterWay/constant";
 import { BenefitsCopy } from "../components/Benefits/constants";
@@ -19,7 +19,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <Navbar />
-      <Hero />
+      <HeroSection />
       <Problem />
       <ButterWay copy={SolutionSectionCopy} />
       <Benefits copy={BenefitsCopy} />

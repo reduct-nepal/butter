@@ -1,6 +1,6 @@
 .heroContainer {
   position: relative;
-  width: calc(11 / 12 * 100%);
+  max-width: 1090px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -11,31 +11,25 @@
 
   @media screen and (max-width: 768px) {
     width: 100%;
-    margin-top: var(--spacing-small);
-  }
-
-  @media screen and (max-width: 488px) {
-    width: 100%;
-    margin-top: var(--spacing-tight);
   }
 }
 
-.waveSvg{ 
+.waveSvg {
   z-index: 0;
-  position: absolute; 
+  position: absolute;
   top: 50%;
   left: 1440px;
   transform: translate(-50%, -50%);
   @media screen and (max-width: 1080px) {
-    left:1240px;
+    left: 1240px;
   }
 
   @media screen and (max-width: 488px) {
-    left:1240px;
+    left: 1240px;
   }
 }
 
-.zIndex1{
+.zIndex1 {
   z-index: 1;
 }
 .ctaButton {
