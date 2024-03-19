@@ -9,7 +9,7 @@ import WaveSvg from "../../assets/images/heroWave.svg";
 export default function HeroSection(): React.ReactElement {
   return (
     <div className="container">
-      <div className={`${styles.heroContainer} section-container`}>
+      <div className={`${styles.heroContainer} sectionContainer`}>
         <h1 className={styles.zIndex1}>
           Converting high-intent customers through pain-point SEO
         </h1>
