@@ -1,4 +1,5 @@
 .heroContainer {
+  position: relative;
   max-width: 1090px;
   display: flex;
   flex-direction: column;
@@ -13,6 +14,29 @@
   }
 }
 
+.waveSvg {
+  z-index: 0;
+  position: absolute;
+  top: 50%;
+  left: 1440px;
+  transform: translate(-50%, -50%);
+
+  @media screen and (max-width: 1080px) {
+    left: 1080px;
+  }
+
+  @media screen and (max-width: 768px) {
+    left: 1150px;
+  }
+
+  @media screen and (max-width: 480px) {
+    left: 1240px;
+  }
+}
+
+.zIndex1 {
+  z-index: 1;
+}
 .ctaButton {
   position: relative;
   padding: var(--spacing-tight) !important;
