@@ -13,15 +13,6 @@
     width: 100%;
     margin-top: var(--spacing-small);
   }
-  .content-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    gap: var(--spacing-tight);
-
-    z-index: 1;
-  }
 
   @media screen and (max-width: 488px) {
     width: 100%;
@@ -35,8 +26,18 @@
   top: 50%;
   left: 1440px;
   transform: translate(-50%, -50%);
+  @media screen and (max-width: 1080px) {
+    left:1240px;
+  }
+
+  @media screen and (max-width: 488px) {
+    left:1240px;
+  }
 }
 
+.zIndex1{
+  z-index: 1;
+}
 .ctaButton {
   position: relative;
   padding: var(--spacing-tight) !important;

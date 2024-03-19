@@ -10,13 +10,11 @@ export default function Hero(): React.ReactElement {
   return (
     <div className="container">  
       <div className={`${styles.heroContainer} section-container`}>
-        <div className="content-container">
-        <h1>Converting high-intent customers through pain-point SEO</h1>
-        <p>
-          We help B2B SaaS companies find their high-intent BoFu keywords and
-          create content that helps them rank on top of Google.{" "}
-        </p>
-        </div>
+          <h1 className={styles.zIndex1}>Converting high-intent customers through pain-point SEO</h1>
+          <p className={styles.zIndex1}>
+            We help B2B SaaS companies find their high-intent BoFu keywords and
+            create content that helps them rank on top of Google.{" "}
+          </p>
         <CTAButton
           link="https://calendly.com/reduct-nepal/good-better-butter-your-content"
           className={styles.ctaButton}
