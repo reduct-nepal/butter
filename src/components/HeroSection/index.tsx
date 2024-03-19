@@ -2,10 +2,10 @@ import React from "react";
 import Image from "next/image";
 import styles from "./hero.module.css";
 
-import CTAButton from "../CtaButton/CTAButton";
+import CTAButton from "../CtaButton";
 import PunitImage from "assets/images/punit.png";
 
-export default function Hero(): React.ReactElement {
+export default function HeroSection(): React.ReactElement {
   return (
     <div className="container">
       <div className={`${styles.heroContainer} sectionContainer`}>
