@@ -26,7 +26,7 @@ export const ONE_OFF_BLOG_COPY = {
   title: "One-off blog",
   description:
     "Includes topic research, content writing and revision until you are satisfied",
-  pricing: "$630",
+  pricing: "$360",
   ctaText: "Get Started",
 };
 

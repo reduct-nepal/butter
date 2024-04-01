@@ -18,8 +18,8 @@ export default function Benefits({
     <section className={`${styles.benefitsBg} container`}>
       <div className={`${styles.benefitsContainer} sectionContainer`}>
         <h1 className={styles.heading}>
-          We help you create content that drives your growth,{" "}
-          <span className="butter-text">quickly.</span>
+          We help you convert high-intent customers through {" "}
+          <span className="butter-text">pain-point SEO.</span>
         </h1>
         <div className={styles.copyContainer}>
           {copy.map((list: BenefitsCopyInterface, index) => {
