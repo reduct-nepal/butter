@@ -53,6 +53,7 @@
     width: 100%;
   }
 }
-.greenText {
-  color: var(--green);
+.strikeText {
+  text-decoration: line-through;
+  color: var(--red);
 }
