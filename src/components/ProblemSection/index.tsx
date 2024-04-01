@@ -9,9 +9,7 @@ export default function Problem(): React.ReactElement {
     <div className={`${styles.containerColor} container`}>
       <div className={`${styles.problemContainer} sectionContainer`}>
         <h1>
-          {" "}
-          <span className={styles.greenText}>5x (↑) visits</span> doesn&apos;t mean
-          anything
+          SEO is <span className={styles.strikeText} >dead</span> evolving
         </h1>
         {Problems.map((problem, index) => {
           return (

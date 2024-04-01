@@ -1,19 +1,42 @@
-.heroContainer {
+.heroContainer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: var(--spacing-small);
+
+  @media screen and (max-width: 1080px) {
+    flex-direction: column;
+    gap:48px;
+  }
+
+  @media screen and (max-width: 768px) {
+    margin-top: var(--spacing-small);
+  }
+}
+
+.heroContentContainer{
+  width: 55%;
   position: relative;
-  max-width: 1090px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   gap: var(--spacing-tight);
-  margin: 0 auto;
-  margin-top: var(--spacing-normal);
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1080px) {
+    width: 100%;
+  }
+  
+}
+.heroImage{
+  z-index: 10;
+  width: 40%;
+  height: auto;
+  @media screen and (max-width: 1080px) {
     width: 100%;
   }
 }
-
 .waveSvg {
   z-index: 0;
   position: absolute;
