@@ -4,7 +4,7 @@ import styles from "./hero.module.css";
 
 import CTAButton from "../CtaButton";
 import PunitImage from "assets/images/punit.png";
-import HeroImage from "assets/images/butter-hero.gif";
+import HeroImage from "assets/images/butterHero.gif";
 
 import WaveSvg from "../../assets/images/heroWave.svg";
 
