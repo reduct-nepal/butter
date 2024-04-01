@@ -3,6 +3,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  margin-top: var(--spacing-small);
 
   @media screen and (max-width: 1080px) {
     flex-direction: column;
