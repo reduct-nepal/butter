@@ -6,9 +6,9 @@ import Navbar from "components/NavBar";
 import Problem from "components/ProblemSection";
 import ButterWay from "components/ButterWay";
 import Benefits from "components/Benefits";
-import Pricing from "components/pricing";
+import Pricing from "components/Footer";
 import Faq from "components/Faq";
-import Footer from "components/footer";
+import Footer from "components/Footer";
 import Copyright from "components/CopyrightSection";
 
 import { SolutionSectionCopy } from "../components/ButterWay/constant";
