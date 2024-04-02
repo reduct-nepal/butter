@@ -43,7 +43,8 @@ export default function HeroSection(): React.ReactElement {
         <Image
         className={styles.heroImage}
           src={HeroImage}
-          alt="converstion animation"
+          alt="conversion animation"
+          unoptimized
         />
       </div>
     </div>
