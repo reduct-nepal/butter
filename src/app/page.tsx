@@ -7,8 +7,8 @@ import Problem from "components/ProblemSection";
 import ButterWay from "components/ButterWay";
 import Benefits from "components/Benefits";
 import Faq from "components/Faq";
-import Pricing from "root/components/Pricing";
-import Footer from "root/components/Footer";
+import Pricing from "root/components/newPricing";
+import Footer from "root/components/NewFooter";
 import Copyright from "components/CopyrightSection";
 
 import { SolutionSectionCopy } from "../components/ButterWay/constant";
