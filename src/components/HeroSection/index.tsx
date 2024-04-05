@@ -29,6 +29,7 @@ export default function HeroSection(): React.ReactElement {
                 className={styles.ctaImage}
                 src={PunitImage}
                 alt="Human CTA face"
+                unoptimized
               />
               Talk to a human
             </div>
