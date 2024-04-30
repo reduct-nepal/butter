@@ -27,7 +27,7 @@ export default function Copyright(): React.ReactElement {
               src={MailIcon}
               alt="Mail icon"
             />
-            <span>hello@buttercontent.com</span>
+            <span>contact@buttercontent.com</span>
           </div>
         </div>
       </div>

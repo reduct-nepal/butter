@@ -36,6 +36,7 @@ export default function Benefits({
                   className={styles.benefitImage}
                   src={list.media}
                   alt="Butter Benefits"
+                  unoptimized
                 />
                 <div className={styles.listContainer}>
                   <h3>{list.title}</h3>
